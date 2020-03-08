@@ -1,8 +1,12 @@
-// LambdaUtil2.java
-package com.jdojo.lambda;
+// LambdaUtil.java
+package com.jdojo.lambda.core;
 
-public class LambdaUtil2 {
-	public void test(Adder adder) {
+import com.jdojo.lambda.core.Adder;
+import com.jdojo.lambda.core.Joiner;
+
+public class LambdaUtil {
+
+	public void testAdder(Adder adder) {
 		double x = 190.90;
 		double y = 8.50;
 		double sum = adder.add(x, y);		
@@ -10,7 +14,7 @@ public class LambdaUtil2 {
 		System.out.println(x + " + " + y + " = " + sum);
 	}
 	
-	public void test(Joiner joiner) {
+	public void testJoiner(Joiner joiner) {
 		String s1 = "Hello";
 		String s2 = "World";
 		String s3 = joiner.join(s1,s2);		

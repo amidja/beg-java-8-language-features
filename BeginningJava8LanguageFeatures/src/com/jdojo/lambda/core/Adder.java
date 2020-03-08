@@ -1,5 +1,5 @@
 // Adder.java
-package com.jdojo.lambda;
+package com.jdojo.lambda.core;
 
 @FunctionalInterface
 public interface Adder {

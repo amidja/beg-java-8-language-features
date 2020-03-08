@@ -1,10 +1,13 @@
 // ComparingObjects.java
 package com.jdojo.lambda;
 
+import com.jdojo.lambda.function.FunctionUtil;
+import com.jdojo.lambda.model.Person;
+
 import java.util.Comparator;
 import java.util.List;
 
-public class ComparingObjects {
+public class ComparingPersonObjectsDemo {
 	public static void main(String[] args) {
 		List<Person> persons = Person.getPersons();
 		

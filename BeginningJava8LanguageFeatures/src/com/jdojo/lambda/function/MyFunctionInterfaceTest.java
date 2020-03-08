@@ -1,4 +1,4 @@
-package com.jdojo.lambda;
+package com.jdojo.lambda.function;
 
 import java.util.function.Function;
 

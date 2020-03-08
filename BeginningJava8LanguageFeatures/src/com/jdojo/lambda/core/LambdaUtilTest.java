@@ -1,5 +1,7 @@
 // LambdaUtilTest.java
-package com.jdojo.lambda;
+package com.jdojo.lambda.core;
+
+import com.jdojo.lambda.core.LambdaUtil;
 
 public class LambdaUtilTest {
 	public static void main(String[] args)  {

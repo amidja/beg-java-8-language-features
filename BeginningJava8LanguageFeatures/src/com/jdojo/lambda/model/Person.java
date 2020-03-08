@@ -1,11 +1,11 @@
 // Person.java
-package com.jdojo.lambda;
+package com.jdojo.lambda.model;
 
 import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
-import static com.jdojo.lambda.Gender.MALE;
-import static com.jdojo.lambda.Gender.FEMALE;
+import static com.jdojo.lambda.model.Gender.MALE;
+import static com.jdojo.lambda.model.Gender.FEMALE;
 
 public class Person {
 	private String firstName;

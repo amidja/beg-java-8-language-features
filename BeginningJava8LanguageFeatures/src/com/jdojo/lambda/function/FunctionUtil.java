@@ -1,5 +1,5 @@
 // FunctionUtil.java
-package com.jdojo.lambda;
+package com.jdojo.lambda.function;
 
 import java.util.ArrayList;
 import java.util.List;

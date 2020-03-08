@@ -1,5 +1,8 @@
 // LambdaUtil2Test.java
-package com.jdojo.lambda;
+package com.jdojo.lambda.core;
+
+import com.jdojo.lambda.core.Joiner;
+import com.jdojo.lambda.core.LambdaUtil2;
 
 public class LambdaUtil2Test {
 	public static void main(String[] args)  {

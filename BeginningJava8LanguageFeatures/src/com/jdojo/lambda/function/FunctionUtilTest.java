@@ -1,7 +1,9 @@
 // FunctionUtilTest.java
-package com.jdojo.lambda;
+package com.jdojo.lambda.function;
 
-import static com.jdojo.lambda.Gender.MALE;
+import com.jdojo.lambda.model.Person;
+
+import static com.jdojo.lambda.model.Gender.MALE;
 import java.util.List;
 
 public class FunctionUtilTest {
@@ -24,6 +26,7 @@ public class FunctionUtilTest {
 		
 		System.out.println("\nPersons mapped to year of their birth:");
 		FunctionUtil.forEach(dobYearList, year -> System.out.println(year));
+		
 
 		// Apply an action to each person in the list
 		// Add one year to each male's dob

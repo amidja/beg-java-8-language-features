@@ -1,5 +1,5 @@
 // TargetTypeTest.java
-package com.jdojo.lambda;
+package com.jdojo.lambda.core;
 
 public class TargetTypeTest {
 	public static void main(String[] args)  {
